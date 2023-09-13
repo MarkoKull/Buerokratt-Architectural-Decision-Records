@@ -5,5 +5,9 @@ This document lists generic API endpoints used throughout different Bürokratt s
 # List of endpoints
 
 ```
-...
+cs-set-customer-support-activity
+cs-get-user-profile-settings
+cs-custom-jwt-extend
+cs-custom-jwt-userinfo
+cs-logout
 ```
