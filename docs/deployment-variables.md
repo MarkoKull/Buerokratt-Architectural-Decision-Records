@@ -7,7 +7,7 @@ This document covers the list of generic variables necessary within different BÃ
 ## GUI / front-end
 
 | Variable name                         | Module                                   | Description                                                                      |
-| ------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------- |
+|---------------------------------------|------------------------------------------|----------------------------------------------------------------------------------|
 |                                       |                                          |                                                                                  |
 | REACT_APP_API_URL                     | Service                                  | Used in ServiceFlow page                                                         |
 |                                       |                                          |                                                                                  |
@@ -47,6 +47,15 @@ This document covers the list of generic variables necessary within different BÃ
 | REACT_APP_AUTH_BASE_URL               | Analytics                                | Used by auth service                                                             |
 |                                       |                                          |                                                                                  |
 | REACT_APP_AUTH_PATH                   | Analytics                                | Used by App.tsx to query user related data                                       |
+|                                       |                                          |                                                                                  |
+| REACT_APP_CONVERSATIONS_BASE_URL      | Training, Analytics, Backoffice, Service | Used by main navigation to create full link to external module                   |
+| REACT_APP_TRAINING_BASE_URL           | Training, Analytics, Backoffice, Service | Used by main navigation to create full link to external module                   |
+| REACT_APP_ANALYTICS_BASE_URL          | Training, Analytics, Backoffice, Service | Used by main navigation to create full link to external module                   |
+| REACT_APP_SERVICES_BASE_URL           | Training, Analytics, Backoffice, Service | Used by main navigation to create full link to external module                   |
+| REACT_APP_SETTINGS_BASE_URL           | Training, Analytics, Backoffice, Service | Used by main navigation to create full link to external module                   |
+| REACT_APP_MONITORING_BASE_URL         | Training, Analytics, Backoffice, Service | Used by main navigation to create full link to external module                   |
+|                                       |                                          |                                                                                  |
+| REACT_APP_SERVICE_ID                  | Training, Analytics, Backoffice, Service | Used by main navigation to identity current module (must match manu id)          |
 
 
 ## Back-end
